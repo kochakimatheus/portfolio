@@ -1,15 +1,16 @@
 project:
   type: website
-output-dir:"."
+
 website:
-  title: "kochakimatheus"
+  title: "Portfólio"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - href: curriculo-matheus-kochaki.html
-
+      - text: "Início"
+        href: index.qmd
+      - text: "Sobre"
+        href: about.qmd
+      - text: "Currículo"
+        href: curriculo-matheus-kochaki.html
 format:
   html:
     theme: cosmo
